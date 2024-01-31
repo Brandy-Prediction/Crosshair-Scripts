@@ -1,0 +1,110 @@
+                                                      // => 𝚂𝚌𝚛𝚒𝚙𝚝𝚜 𝚋𝚢 𝙱𝚛𝚊𝚗𝚍𝚢 <= //
+---------------------------------------------------------------------------------------------------------------------------------------
+  //——————————————————————————————————————————————————————————//
+ //                 𝙳𝚈𝙽𝙰𝙼𝙸𝙲 𝙲𝚁𝙾𝚂𝚂𝙷𝙰𝙸𝚁 𝚂𝚆𝙸𝚃𝙲𝙷               //
+//——————————————————————————————————————————————————————————//
+ 
+alias TD "TD_ON"
+alias TD_ON "cl_crosshair_dynamic 1; play ui/beep07; echo <<[Dynamic ON]>>; alias TD TD_OFF"
+alias TD_OFF "cl_crosshair_dynamic 0; play buttons/button10; echo %[Dynamic OFF]%; alias TD TD_ON"
+ 
+bind "L" "TD"
+ 
+---------------------------------------------------------------------------------------------------------------------------------------
+  //——————————————————————————————————————————————————————————//
+ //                 𝙲𝚁𝙾𝚂𝚂𝙷𝙰𝙸𝚁 𝙲𝙾𝙻𝙾𝚁 𝙲𝙷𝙰𝙽𝙶𝙴𝚁                //
+//——————————————————————————————————————————————————————————//
+ 
+alias crosshair_color "crosshair_color_red"
+alias crosshair_color_red "cl_crosshair_red 255; cl_crosshair_green 0; cl_crosshair_blue 0; alias crosshair_color crosshair_color_blue; play buttons/blip2; echo =>[RED]<="
+alias crosshair_color_blue "cl_crosshair_red 0; cl_crosshair_green 0; cl_crosshair_blue 255; alias crosshair_color crosshair_color_green; play buttons/blip2; echo =>[BLUE]<="
+alias crosshair_color_green "cl_crosshair_red 0; cl_crosshair_green 255; cl_crosshair_blue 0; alias crosshair_color crosshair_color_cyan; play buttons/blip2; echo =>[GREEN]<="
+alias crosshair_color_cyan "cl_crosshair_red 0; cl_crosshair_green 255; cl_crosshair_blue 255; alias crosshair_color crosshair_color_purple; play buttons/blip2; echo =>[CYAN]<="
+alias crosshair_color_purple "cl_crosshair_red 128; cl_crosshair_green 0; cl_crosshair_blue 128; alias crosshair_color crosshair_color_pink; play buttons/blip2; echo =>[PURPLE]<="
+alias crosshair_color_pink "cl_crosshair_red 255; cl_crosshair_green 182; cl_crosshair_blue 193; alias crosshair_color crosshair_color_magenta; play buttons/blip2; echo =>[PINK]<="
+alias crosshair_color_magenta "cl_crosshair_red 255; cl_crosshair_green 0; cl_crosshair_blue 255; alias crosshair_color crosshair_color_orange; play buttons/blip2; echo =>[MAGENTA]<="
+alias crosshair_color_orange "cl_crosshair_red 255; cl_crosshair_green 165; cl_crosshair_blue 0; alias crosshair_color crosshair_color_brown; play buttons/blip2; echo =>[ORANGE]<="
+alias crosshair_color_brown "cl_crosshair_red 139; cl_crosshair_green 69; cl_crosshair_blue 19; alias crosshair_color crosshair_color_light_blue; play buttons/blip2; echo =>[BROWN]<="
+alias crosshair_color_light_blue "cl_crosshair_red 173; cl_crosshair_green 216; cl_crosshair_blue 230; alias crosshair_color crosshair_color_light_green; play buttons/blip2; echo =>[LIGHT_BLUE]<="
+alias crosshair_color_light_green "cl_crosshair_red 144; cl_crosshair_green 238; cl_crosshair_blue 144; alias crosshair_color crosshair_color_light_purple; play buttons/blip2; echo =>[LIGHT_GREEN]<="
+alias crosshair_color_light_purple "cl_crosshair_red 221; cl_crosshair_green 160; cl_crosshair_blue 221; alias crosshair_color crosshair_color_light_pink; play buttons/blip2; echo =>[LIGHT_PURPLE]<="
+alias crosshair_color_light_pink "cl_crosshair_red 255; cl_crosshair_green 182; cl_crosshair_blue 193; alias crosshair_color crosshair_color_light_brown; play buttons/blip2; echo =>[LIGHT_PINK]<="
+alias crosshair_color_light_brown "cl_crosshair_red 244; cl_crosshair_green 164; cl_crosshair_blue 96; alias crosshair_color crosshair_color_white; play buttons/blip2; echo =>[LIGHT_BROWN]<="
+alias crosshair_color_white "cl_crosshair_red 255; cl_crosshair_green 255; cl_crosshair_blue 255; alias crosshair_color crosshair_color_red; play buttons/blip2; echo =>[WHITE]<="
+ 
+bind "K" "crosshair_color"
+ 
+---------------------------------------------------------------------------------------------------------------------------------------
+  //——————————————————————————————————————————————————————————————//
+ //                    𝓒𝓻𝓸𝓼𝓼𝓱𝓪𝓲𝓻 𝓢𝓬𝓻𝓲𝓹𝓽 𝓡𝓖𝓑                   //
+//——————————————————————————————————————————————————————————————//
+ 
+bind F3 "crosshairRainbowOn"
+ 
+alias rainstart "alias raintoggle rainstop; alias rc00 cc00;alias rc01 cc01;alias rc02 cc02;alias rc03 cc03;alias rc04 cc04;alias rc05 cc05;alias rc06 cc06;alias rc07 cc07;alias rc08 cc08;alias rc09 cc09;alias rc10 cc10;alias rc11 cc11;alias rc12 cc12;alias rc13 cc13;alias rc14 cc14;alias rc15 cc15;alias rc16 cc16;alias rc17 cc17;alias rc18 cc18;alias rc19 cc19;alias rc20 cc20;alias rc21 cc21;rain2"
+ 
+alias rain2 "alias raintoggle rainstop; alias rc22 cc22;alias rc23 cc23;alias rc24 cc24;alias rc25 cc25;alias rc26 cc26;alias rc27 cc27;alias rc28 cc28;alias rc29 cc29;alias rc30 cc30;alias rc31 cc31;alias rc32 cc32;alias rc33 cc33;alias rc34 cc34;alias rc35 cc35;alias rc36 cc36;alias rc37 cc37;alias rc38 cc38;alias rc39 cc39;alias rc40 cc40;alias rc41 cc41;alias rc42 cc42;alias rc43 cc43;rc00"
+alias rainstop "rs1;cl_crosshair_red 180;cl_crosshair_green 200;cl_crosshair_blue 100;alias raintoggle rainstart"
+alias raintoggle "rainstart"
+ 
+alias rs1 "alias rc00 rainstop;alias rc01 rainstop;alias rc02 rainstop;alias rc03 rainstop;alias rc04 rainstop;alias rc05 rainstop;alias rc06 rainstop;alias rc07 rainstop;alias rc08 rainstop;alias rc09 rainstop;alias rc10 rainstop;alias rc11 rainstop;alias rc12 rainstop;alias rc13 rainstop;alias rc14 rainstop;alias rc15 rainstop;alias rc16 rainstop;alias rc17 rainstop;alias rc18 rainstop;alias rc19 rainstop;alias rc20 rainstop;alias rc21 rainstop;rs2"
+ 
+alias rs2 "alias raintoggle rainstop; alias rc22 rainstop;alias rc23 rainstop;alias rc24 rainstop;alias rc25 rainstop;alias rc26 rainstop;alias rc27 rainstop;alias rc28 rainstop;alias rc29 rainstop;alias rc30 rainstop;alias rc31 rainstop;alias rc32 rainstop;alias rc33 rainstop;alias rc34 rainstop;alias rc35 rainstop;alias rc36 rainstop;alias rc37 rainstop;alias rc38 rainstop;alias rc39 rainstop;alias rc40 rainstop;alias rc41 rainstop;alias rc42 rainstop;alias rc43 rainstop;alias raintoggle rainstart"
+ 
+alias rc00 "cc00";alias rc01 "cc01";alias rc02 "cc02";alias rc03 "cc03"
+alias rc04 "cc04";alias rc05 "cc05";alias rc06 "cc06";alias rc07 "cc07";alias rc08 "cc08"
+alias rc09 "cc09";alias rc10 "cc10";alias rc11 "cc11";alias rc12 "cc12";alias rc13 "cc13"
+alias rc14 "cc14";alias rc15 "cc15";alias rc16 "cc16";alias rc17 "cc17";alias rc18 "cc18"
+alias rc19 "cc19";alias rc20 "cc20";alias rc21 "cc21";alias rc22 "cc22";alias rc23 "cc23"
+alias rc24 "cc24";alias rc25 "cc25";alias rc26 "cc26";alias rc27 "cc27";alias rc28 "cc28"
+alias rc29 "cc29";alias rc30 "cc30";alias rc31 "cc31";alias rc32 "cc32";alias rc33 "cc33"
+alias rc34 "cc34";alias rc35 "cc35";alias rc36 "cc36";alias rc37 "cc37";alias rc38 "cc38"
+alias rc39 "cc39";alias rc40 "cc40";alias rc41 "cc41";alias rc42 "cc42";alias rc43 "cc43"
+ 
+alias cc00 "cl_crosshair_red 255; cl_crosshair_green 000; cl_crosshair_blue 000; wait 10; rc01"
+alias cc01 "cl_crosshair_red 255; cl_crosshair_green 030; cl_crosshair_blue 000; wait 10; rc02"
+alias cc02 "cl_crosshair_red 255; cl_crosshair_green 060; cl_crosshair_blue 000; wait 10; rc03"
+alias cc03 "cl_crosshair_red 255; cl_crosshair_green 090; cl_crosshair_blue 000; wait 10; rc04"
+alias cc04 "cl_crosshair_red 255; cl_crosshair_green 120; cl_crosshair_blue 000; wait 10; rc05"
+alias cc05 "cl_crosshair_red 255; cl_crosshair_green 150; cl_crosshair_blue 000; wait 10; rc06"
+alias cc06 "cl_crosshair_red 255; cl_crosshair_green 180; cl_crosshair_blue 000; wait 10; rc07"
+alias cc07 "cl_crosshair_red 255; cl_crosshair_green 210; cl_crosshair_blue 000; wait 10; rc08"
+alias cc08 "cl_crosshair_red 255; cl_crosshair_green 255; cl_crosshair_blue 000; wait 10; rc09"
+alias cc09 "cl_crosshair_red 210; cl_crosshair_green 255; cl_crosshair_blue 000; wait 10; rc10"
+alias cc10 "cl_crosshair_red 180; cl_crosshair_green 255; cl_crosshair_blue 000; wait 10; rc11"
+alias cc11 "cl_crosshair_red 150; cl_crosshair_green 255; cl_crosshair_blue 000; wait 10; rc12"
+alias cc12 "cl_crosshair_red 120; cl_crosshair_green 255; cl_crosshair_blue 000; wait 10; rc13"
+alias cc13 "cl_crosshair_red 090; cl_crosshair_green 255; cl_crosshair_blue 000; wait 10; rc14"
+alias cc14 "cl_crosshair_red 060; cl_crosshair_green 255; cl_crosshair_blue 000; wait 10; rc15"
+alias cc15 "cl_crosshair_red 030; cl_crosshair_green 255; cl_crosshair_blue 000; wait 10; rc16"
+alias cc16 "cl_crosshair_red 000; cl_crosshair_green 255; cl_crosshair_blue 000; wait 10; rc17"
+alias cc17 "cl_crosshair_red 000; cl_crosshair_green 255; cl_crosshair_blue 030; wait 10; rc18"
+alias cc18 "cl_crosshair_red 000; cl_crosshair_green 255; cl_crosshair_blue 060; wait 10; rc19"
+alias cc19 "cl_crosshair_red 000; cl_crosshair_green 255; cl_crosshair_blue 090; wait 10; rc20"
+alias cc20 "cl_crosshair_red 000; cl_crosshair_green 255; cl_crosshair_blue 120; wait 10; rc21"
+alias cc21 "cl_crosshair_red 000; cl_crosshair_green 255; cl_crosshair_blue 150; wait 10; rc22"
+alias cc22 "cl_crosshair_red 000; cl_crosshair_green 255; cl_crosshair_blue 180; wait 10; rc23"
+alias cc23 "cl_crosshair_red 000; cl_crosshair_green 255; cl_crosshair_blue 210; wait 10; rc24"
+alias cc24 "cl_crosshair_red 000; cl_crosshair_green 255; cl_crosshair_blue 255; wait 10; rc25"
+alias cc25 "cl_crosshair_red 000; cl_crosshair_green 210; cl_crosshair_blue 255; wait 10; rc26"
+alias cc26 "cl_crosshair_red 000; cl_crosshair_green 180; cl_crosshair_blue 255; wait 10; rc27"
+alias cc27 "cl_crosshair_red 000; cl_crosshair_green 150; cl_crosshair_blue 255; wait 10; rc28"
+alias cc28 "cl_crosshair_red 000; cl_crosshair_green 120; cl_crosshair_blue 255; wait 10; rc29"
+alias cc29 "cl_crosshair_red 000; cl_crosshair_green 090; cl_crosshair_blue 255; wait 10; rc30"
+alias cc30 "cl_crosshair_red 000; cl_crosshair_green 060; cl_crosshair_blue 255; wait 10; rc31"
+alias cc31 "cl_crosshair_red 000; cl_crosshair_green 030; cl_crosshair_blue 255; wait 10; rc32"
+alias cc32 "cl_crosshair_red 000; cl_crosshair_green 000; cl_crosshair_blue 255; wait 10; rc33"
+alias cc33 "cl_crosshair_red 030; cl_crosshair_green 000; cl_crosshair_blue 255; wait 10; rc34"
+alias cc34 "cl_crosshair_red 060; cl_crosshair_green 000; cl_crosshair_blue 255; wait 10; rc35"
+alias cc35 "cl_crosshair_red 090; cl_crosshair_green 000; cl_crosshair_blue 255; wait 10; rc36"
+alias cc36 "cl_crosshair_red 120; cl_crosshair_green 000; cl_crosshair_blue 255; wait 10; rc37"
+alias cc37 "cl_crosshair_red 210; cl_crosshair_green 000; cl_crosshair_blue 255; wait 10; rc38"
+alias cc38 "cl_crosshair_red 255; cl_crosshair_green 000; cl_crosshair_blue 255; wait 10; rc39"
+alias cc39 "cl_crosshair_red 255; cl_crosshair_green 000; cl_crosshair_blue 210; wait 10; rc40"
+alias cc40 "cl_crosshair_red 255; cl_crosshair_green 000; cl_crosshair_blue 120; wait 10; rc41"
+alias cc41 "cl_crosshair_red 255; cl_crosshair_green 000; cl_crosshair_blue 090; wait 10; rc42"
+alias cc42 "cl_crosshair_red 255; cl_crosshair_green 000; cl_crosshair_blue 060; wait 10; rc43"
+alias cc43 "cl_crosshair_red 255; cl_crosshair_green 000; cl_crosshair_blue 030; wait 10; rc00"
+ 
+alias "crosshairRainbowOn" "playgamesound Weapon_Scout.Cliplocked; wait 15; play ui/bigreward; raintoggle; echo ; echo [ Rainbow Crosshair Activated ]; echo  ; bind F3 crosshairRainbowOf"
+alias "crosshairRainbowOf" "playgamesound Weapon_Scout.Cliplocked; wait 15; play npc/lilpeanut/lilpeanut04; raintoggle; echo ; echo [ Rainbow Crosshair Desactivated ]; echo  ; bind F3 crosshairRainbowOn"
